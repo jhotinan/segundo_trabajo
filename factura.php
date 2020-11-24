@@ -31,7 +31,7 @@
                 Mas
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Nada</a>
+                <a class="dropdown-item" href="formulario_registro.php">Registro de productos</a>
                 <a class="dropdown-item" href="#">Nada</a>
                 <a class="dropdown-item" href="#">Nada</a>
                 <div class="dropdown-divider"></div>

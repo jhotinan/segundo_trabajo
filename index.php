@@ -31,7 +31,7 @@
                 Mas
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Nada</a>
+                <a class="dropdown-item" href="formulario_registro.php">Registro de productos</a>
                 <a class="dropdown-item" href="#">Nada</a>
                 <a class="dropdown-item" href="#">Nada</a>
                 <div class="dropdown-divider"></div>
@@ -79,17 +79,19 @@
         );
 
         foreach($productos as $producto):?>
- 
-            <div class="col mb-4">
+        <div class="container">
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-3">
                 <div class="card h-100">
                     <img src="<?php echo($producto[3]) ?>" class="card-img-top" alt="foto">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo($producto[0])?></h5>
                         <p class="card-text"><?php echo($producto[1])?></p>
                         <p class="card-text"><?php echo($producto[2])?></p>
-                        
                     </div>
                 </div>
+              </div> 
+            </div>  
         </div>
 
     <?php endforeach?>
