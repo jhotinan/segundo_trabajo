@@ -75,7 +75,20 @@
 
             array("producto3",2500,"marca","img/producto3.jpg"),
 
-            array("producto4",7000,"marca","img/producto4.jpg")
+            array("producto4",7000,"marca","img/producto4.jpg"),
+
+            array("producto5",7000,"marca","img/producto5.jpg"),
+
+            array("producto6",7000,"marca","img/producto6.jpg"),
+
+            array("producto7",7000,"marca","img/producto7.jpg"),
+
+            array("producto8",7000,"marca","img/producto8.jpeg"),
+
+            array("producto9",7000,"marca","img/producto9.jpeg"),
+
+            array("producto10",7000,"marca","img/producto10.jpeg")
+
         );
 
         foreach($productos as $producto):?>

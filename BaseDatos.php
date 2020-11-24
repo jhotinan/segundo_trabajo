@@ -13,7 +13,7 @@ class BaseDatos {
 
             $datosBD="mysql:host=localhost;dbname=empresa";
             $conexion= new PDO($datosBD, $this->usuarioBD, $this->passwordBD);
-            echo("conectado con exito");
+            //echo("conectado con exito");
             return ($conexion);
 
         }catch(PDOException $error ){
