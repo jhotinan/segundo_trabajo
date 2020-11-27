@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIENDA</title>
+    <title>Sweet world</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <img src="img/logo.png" width="50" height="50" alt="logo">
@@ -32,10 +32,10 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="formulario_registro.php">Registro de productos</a>
-                <a class="dropdown-item" href="#">Nada</a>
+                <a class="dropdown-item" href="listadoProductos.php">Edición</a>
                 <a class="dropdown-item" href="#">Nada</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="">Soporte</a>
+                <a class="dropdown-item" href="">Nada</a>
               </div>
           </ul>
         </div>
