@@ -20,5 +20,7 @@
         
 
         $operacionBD->actualizarDatos($consultaSQL);
+
+        header("location:listadoProductos.php");
     }
 ?>

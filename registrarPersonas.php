@@ -23,6 +23,7 @@ if(isset($_POST["boton"])){
     //llamar al metodo agregar datos de la clase baseDatos.
     $operacionBD->agregarDatos($consultaSQL);
 
+    header("location:formulario_registro.php");
 }
 
 ?>
