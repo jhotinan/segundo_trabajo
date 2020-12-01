@@ -75,10 +75,11 @@
             <button type="submit" class="btn btn-info btn-block mt-3" name="boton">registrar</button>
         </form>
         
-        </div>
-    
+        </div>   
+        <br>
+        <br>
     </main>
-    
+
     <footer class = "bg-dark text-light">
       <div class = "container">  
         <div class = "row">

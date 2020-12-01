@@ -7,7 +7,7 @@
     <title>Sweet world</title>
 </head>
 <body>
-    <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <img src="img/logo.png" width="50" height="50" alt="logo">
@@ -32,10 +32,10 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="formulario_registro.php">Registro de productos</a>
-                <a class="dropdown-item" href="#">Nada</a>
+                <a class="dropdown-item" href="listadoProductos.php">Edición</a>
                 <a class="dropdown-item" href="#">Nada</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="">Soporte</a>
+                <a class="dropdown-item" href="">Nada</a>
               </div>
           </ul>
         </div>
